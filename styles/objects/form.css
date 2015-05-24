@@ -1,5 +1,5 @@
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 21px;
 }
 
 .form-group:last-child {
@@ -16,9 +16,9 @@
 
     font-size: 14px;
     font-weight: normal;
-    line-height: 1.2em;
+    line-height: 1.3em;
 
-    color: #9faaad;
+    color: #767c7e;
     border: none;
     border-radius: 20px;
     outline: none;
@@ -26,9 +26,25 @@
     box-shadow: none;
 }
 
-textarea {
+textarea.form-control {
     height: auto;
-    min-height: 100px;
+    min-height: 82px;
 
     resize: vertical;
+
+    border-radius: 12px;
 }
+
+input::-moz-placeholder {
+    color: #9faaad;
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    color: #9faaad;
+}
+
+input::-webkit-input-placeholder {
+    color: #9faaad;
+}
+

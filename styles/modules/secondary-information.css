@@ -1,11 +1,15 @@
-
 .secondary-information-title {
+    margin: 0 0 26px;
+
     font-size: 21px;
+
+    text-transform: uppercase;
 }
 
 .secondary-information-list-item {
+    padding: 20px 0 10px;
+
     border-bottom: solid 1px #e7e7e7;
-    padding: 15px 0;
 }
 
 .secondary-information-list-item:first-child {
@@ -13,8 +17,14 @@
 }
 
 .secondary-information-panel {
-    padding: 15px;
+    padding: 25px 30px 30px;
 
-    border-radius: 10px;
+    border-radius: 5px;
     background: #e7e7e7;
+}
+
+.secondary-information-panel-text {
+    margin: 0 0 24px;
+
+    color: #767c7e;
 }

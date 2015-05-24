@@ -20,9 +20,14 @@
 }
 
 .secondary-news-item-text {
-    padding-left: 10px;
+    margin: 14px 0 13px;
+    padding-left: 29px;
 
     font-size: 14px;
 
     color: #767c7e;
+}
+
+.secondary-news-item-link {
+    display: block;
 }

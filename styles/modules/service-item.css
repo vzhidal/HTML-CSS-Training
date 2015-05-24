@@ -1,17 +1,19 @@
+.service-item-icon {
+    margin-top: 3px;
+}
+
 .service-item-content {
+    margin-top: 12px;
     margin-left: 70px;
-    padding-left: 10px;
+    padding-left: 31px;
 }
 
 .service-item-title {
+    margin: 0 0 18px;
+
     font-size: 21px;
 
+    text-transform: uppercase;
+
     color: #202628;
-}
-
-.service-item-text {
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-
-    color: #767c7e;
 }

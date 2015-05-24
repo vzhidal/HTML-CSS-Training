@@ -4,6 +4,7 @@
 
 .primary-logo-link {
     text-decoration: none;
+    text-transform: uppercase;
 
     color: #e7e7e7;
 }

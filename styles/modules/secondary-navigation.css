@@ -1,18 +1,21 @@
 .secondary-navigation-item {
     display: inline-block;
+
     font-size: 14px;
 }
 
 .secondary-navigation-link {
-    color: #e7e7e7;
-
     text-decoration: none;
+
+    color: #e7e7e7;
 }
 
 .secondary-navigation-item:after {
-    content: "/";
+    margin: 0 15px;
+
+    content: '/';
+
     color: #545a5c;
-    margin: 0 10px;
 }
 
 .secondary-navigation-item:last-child:after {

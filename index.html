@@ -11,8 +11,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
-    <link rel="stylesheet" href="bower_components/simple-grid-css/simplegrid.css"/>
 
+    <link rel="stylesheet" href="styles/grid.css"/>
     <link rel="stylesheet" href="styles/layout.css"/>
 
     <link rel="stylesheet" href="styles/states.css"/>
@@ -81,8 +81,8 @@
 </section>
 <section class="services-section">
     <div class="services-section-inner container">
-        <ul class="services-list reset-list grid">
-            <li class="services-list-item col-4-12">
+        <ul class="reset-list grid">
+            <li class="col-4-12">
                 <div class="service-item">
                     <i class="service-item-icon circle-icon icon-rocket"></i>
 
@@ -90,13 +90,12 @@
                         <h3 class="service-item-title">Aliquam tincidunt</h3>
 
                         <p class="service-item-text">Donec nec justo eget felis facilisis fermentum. Aliquam
-                            porttitor
-                            mauris sit amet orci. Aenean dignissim pellentesq <a class="link link-primary" href="#">=>
+                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link-primary" href="#">=>
                                 more</a></p>
                     </div>
                 </div>
             </li>
-            <li class="services-list-item col-4-12">
+            <li class="col-4-12">
                 <div class="service-item">
                     <i class="service-item-icon circle-icon icon-shield"></i>
 
@@ -104,13 +103,12 @@
                         <h3 class="service-item-title">Aliquam tincidunt</h3>
 
                         <p class="service-item-text">Donec nec justo eget felis facilisis fermentum. Aliquam
-                            porttitor
-                            mauris sit amet orci. Aenean dignissim pellentesq <a class="link link-primary" href="#">=>
+                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link-primary" href="#">=>
                                 more</a></p>
                     </div>
                 </div>
             </li>
-            <li class="services-list-item col-4-12">
+            <li class="col-4-12">
                 <div class="service-item">
                     <i class="service-item-icon circle-icon icon-fire-extinguisher"></i>
 
@@ -118,8 +116,7 @@
                         <h3 class="service-item-title">Aliquam tincidunt</h3>
 
                         <p class="service-item-text">Donec nec justo eget felis facilisis fermentum. Aliquam
-                            porttitor
-                            mauris sit amet orci. Aenean dignissim pellentesq <a class="link link-primary" href="#">=>
+                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link-primary" href="#">=>
                                 more</a></p>
                     </div>
                 </div>
@@ -127,7 +124,7 @@
         </ul>
     </div>
 </section>
-<section class="news-section section">
+<section class="news-section">
     <div class="news-section-inner container">
         <div class="news clear-fix">
             <img class="news-image" src="images/news.jpg">
@@ -147,7 +144,7 @@
                                 Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
                                 Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu
                                 pulvinar nunc sapien ornare nisl.</p>
-                            <a class="button" href="#">More</a>
+                            <a class="news-item-button button" href="#">More</a>
                         </div>
                     </li>
                     <li class="news-list-item col-6-12">
@@ -158,7 +155,7 @@
                                 Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
                                 Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu
                                 pulvinar nunc sapien ornare nisl.</p>
-                            <a class="button" href="#">More</a>
+                            <a class="news-item-button button" href="#">More</a>
                         </div>
                     </li>
                 </ul>
@@ -166,7 +163,7 @@
         </div>
     </div>
 </section>
-<section class="subscription-section section">
+<section class="subscription-section">
     <div class="subscription-section-inner container">
         <div class="subscription-panel clear-fix">
             <i class="subscription-panel-icon circle-icon icon-user"></i>
@@ -183,25 +180,27 @@
                     <div class="col-6-12">
                         <h3 class="subscription-panel-title">Morbi vitae luctus</h3>
 
-                        <form class="subscription-form" action="someAction">
-                            <div class="subscription-form-input-container">
-                                <label class="form-label hidden" for="subscription-form-email">Enter email</label>
-                                <input class="form-control" id="subscription-form-email" name="email" type="email"
-                                       placeholder="enter your email id here ..."/>
-                            </div>
-                            <div class="subscription-form-button-container">
-                                <button class="button button-secondary" type="submit"><span
-                                        class="button-text">Subscribe</span><i
-                                        class="button-icon icon-long-arrow-right"></i></button>
-                            </div>
-                        </form>
+                        <div class="subscription-panel-form-container">
+                            <form class="subscription-form" action="someAction">
+                                <div class="subscription-form-input-container">
+                                    <label class="form-label hidden" for="subscription-form-email">Enter email</label>
+                                    <input class="form-control" id="subscription-form-email" name="email" type="email"
+                                           placeholder="enter your email id here ..."/>
+                                </div>
+                                <div class="subscription-form-button-container">
+                                    <button class="button button-secondary" type="submit"><span
+                                            class="button-text">Subscribe</span><i
+                                            class="button-icon icon-long-arrow-right"></i></button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="secondary-information-section section">
+<section class="secondary-information-section">
     <div class="secondary-information-section-inner container">
         <ul class="reset-list grid">
             <li class="col-4-12">
@@ -216,7 +215,7 @@
                                 <div class="secondary-news-item-cell">
                                     <p class="secondary-news-item-text">
                                         Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                                        <a class="link link-primary" href="#">=> more</a>
+                                        <a class="secondary-news-item-link link link-primary" href="#">more =></a>
                                     </p>
                                 </div>
                             </div>
@@ -229,7 +228,7 @@
                                 <div class="secondary-news-item-cell">
                                     <p class="secondary-news-item-text">
                                         Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                                        <a class="link link-primary" href="#">=> more</a>
+                                        <a class="secondary-news-item-link link link-primary" href="#">more =></a>
                                     </p>
                                 </div>
                             </div>
@@ -242,7 +241,7 @@
                                 <div class="secondary-news-item-cell">
                                     <p class="secondary-news-item-text">
                                         Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                                        <a class="link link-primary" href="#">=> more</a>
+                                        <a class="secondary-news-item-link link link-primary" href="#">more =></a>
                                     </p>
                                 </div>
                             </div>
@@ -293,7 +292,7 @@
                                     <h5 class="contact-item-title">Address</h5>
 
                                     <p class="contact-item-text">
-                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                        some block, steet number, city name, <br/>country
                                     </p>
                                 </div>
                             </div>
@@ -306,7 +305,8 @@
                                     <h5 class="contact-item-title">Phone</h5>
 
                                     <p class="contact-item-text">
-                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                        <a class="contact-item-link" href="tel:12037777777">(203) 777 7777</a>
+                                        <a class="contact-item-link" href="tel:12038888888">(203) 888 8888</a>
                                     </p>
                                 </div>
                             </div>
@@ -319,7 +319,12 @@
                                     <h5 class="contact-item-title">Email Us</h5>
 
                                     <p class="contact-item-text">
-                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                        <a class="contact-item-link"
+                                           href="mailto:info@siteneme.com">info@siteneme.com</a>
+                                        <a class="contact-item-link"
+                                           href="mailto:sales@sitename.com">sales@sitename.com</a>
+                                        <a class="contact-item-link"
+                                           href="mailto:company@sitename.com">company@sitename.com</a>
                                     </p>
                                 </div>
                             </div>

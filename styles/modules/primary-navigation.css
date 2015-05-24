@@ -5,13 +5,18 @@
 .primary-navigation-link {
     display: inline-block;
 
-    padding: 35px 25px;
+    padding: 29px 23px 27px;
 
     font-size: 13px;
 
     text-decoration: none;
+    text-transform: uppercase;
 
     color: #e7e7e7;
+}
+
+.primary-navigation-item:last-child .primary-navigation-link {
+    padding-right: 10px;
 }
 
 .primary-navigation-link:hover, .primary-navigation-link:active {

@@ -14,11 +14,14 @@
 .news-primary-title {
     font-size: 21px;
 
+    text-transform: uppercase;
+
     color: #202628;
 }
 
 .news-secondary-title {
-    padding: 10px 0;
+    margin: 27px 0 22px;
+    padding: 6px 0 9px;
 
     font-family: 'Lato', sans-serif;
     font-size: 20px;
