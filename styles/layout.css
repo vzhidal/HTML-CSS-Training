@@ -1,0 +1,11 @@
+body {
+	font-family: "Fjalla One", sans-serif;
+
+	/*display: inline-block;*/
+	/*min-width: 100%;*/
+}
+
+.container {
+	width: 1168px;
+	margin: 0 auto;
+}

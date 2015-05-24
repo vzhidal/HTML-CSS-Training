@@ -1,0 +1,16 @@
+.page-header {
+	background: #202628;
+}
+
+.page-header-inner{
+	display: table;
+}
+
+.page-header-logo {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page-header-navigation {
+	float: right;
+}

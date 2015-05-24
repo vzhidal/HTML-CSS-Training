@@ -1,0 +1,22 @@
+{
+  "name": "HTML-CSS-Training",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vzhidal/HTML-CSS-Training",
+  "authors": [
+    "Vladimir Zhidal <Vladimir.Zhidal@itechart-group.com>"
+  ],
+  "description": "An Example of HTML",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}

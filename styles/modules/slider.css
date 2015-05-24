@@ -1,0 +1,30 @@
+.slider {
+
+}
+
+.slider-list {
+
+}
+
+.slider-item {
+	height: 560px;
+	text-align: center;
+	background: #2e2c2a;
+	overflow: hidden;
+}
+
+.slider-item-content{
+	width: 100%;
+	position: relative;
+	right: 50%;
+	text-align: center;
+}
+
+.slider-item-image {
+	display: inline-block;
+	margin-right: -100%;
+}
+
+.slider-item-description {
+
+}
