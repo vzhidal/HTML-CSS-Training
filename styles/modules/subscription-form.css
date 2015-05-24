@@ -1,0 +1,13 @@
+.subscription-form {
+    display: table;
+}
+
+.subscription-form-input-container {
+    display: table-cell;
+
+    width: 100%;
+}
+
+.subscription-form-button-container {
+    display: table-cell;
+}

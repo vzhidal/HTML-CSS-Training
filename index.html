@@ -1,152 +1,372 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-	<meta charset="UTF-8">
-	<title>HTML-CSS Training</title>
+    <meta charset="UTF-8">
+    <title>HTML-CSS Training</title>
 
-	<link rel="stylesheet" href="styles/utils.css"/>
+    <link rel="stylesheet" href="styles/utils.css"/>
 
-	<link rel="stylesheet" href="dependencies/icomoon/style.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="dependencies/icomoon/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
-	<link rel="stylesheet" href="bower_components/simple-grid-css/simplegrid.css"/>
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
+    <link rel="stylesheet" href="bower_components/simple-grid-css/simplegrid.css"/>
 
-	<link rel="stylesheet" href="styles/layout.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
 
-	<link rel="stylesheet" href="styles/modules/page-header.css"/>
-	<link rel="stylesheet" href="styles/modules/primary-logo.css"/>
-	<link rel="stylesheet" href="styles/modules/primary-navigation.css"/>
-	<link rel="stylesheet" href="styles/modules/slider.css"/>
-	<link rel="stylesheet" href="styles/modules/services-section.css"/>
-	<link rel="stylesheet" href="styles/modules/service-item.css"/>
-	<link rel="stylesheet" href="styles/modules/news.css"/>
+    <link rel="stylesheet" href="styles/states.css"/>
+
+    <link rel="stylesheet" href="styles/objects/button.css"/>
+    <link rel="stylesheet" href="styles/objects/form.css"/>
+    <link rel="stylesheet" href="styles/objects/link.css"/>
+
+    <link rel="stylesheet" href="styles/modules/page-header.css"/>
+    <link rel="stylesheet" href="styles/modules/primary-logo.css"/>
+    <link rel="stylesheet" href="styles/modules/primary-navigation.css"/>
+    <link rel="stylesheet" href="styles/modules/slider.css"/>
+    <link rel="stylesheet" href="styles/modules/services-section.css"/>
+    <link rel="stylesheet" href="styles/modules/service-item.css"/>
+    <link rel="stylesheet" href="styles/modules/news.css"/>
+    <link rel="stylesheet" href="styles/modules/news-item.css"/>
+    <link rel="stylesheet" href="styles/modules/subscription-panel.css"/>
+    <link rel="stylesheet" href="styles/modules/subscription-form.css"/>
+    <link rel="stylesheet" href="styles/modules/secondary-information.css"/>
+    <link rel="stylesheet" href="styles/modules/secondary-news-item.css"/>
+    <link rel="stylesheet" href="styles/modules/contact-item.css"/>
+    <link rel="stylesheet" href="styles/modules/page-footer.css"/>
+    <link rel="stylesheet" href="styles/modules/social-link.css"/>
+    <link rel="stylesheet" href="styles/modules/secondary-navigation.css"/>
 </head>
 <body>
 <header class="page-header">
-	<div class="page-header-inner container clear-fix">
-		<div class="primary-logo page-header-logo">
-			<a class="primary-logo-link" href="#">Site Name</a>
-		</div>
-		<nav class="primary-navigation page-header-navigation clear-fix">
-			<ul class="primary-navigation-list clear-fix reset-list">
-				<li class="primary-navigation-item current">
-					<a class="primary-navigation-link" href="#">Home</a>
-				</li>
-				<li class="primary-navigation-item">
-					<a class="primary-navigation-link" href="#">About</a>
-				</li>
-				<li class="primary-navigation-item">
-					<a class="primary-navigation-link" href="#">Services</a>
-				</li>
-				<li class="primary-navigation-item">
-					<a class="primary-navigation-link" href="#">Portfolio</a>
-				</li>
-				<li class="primary-navigation-item">
-					<a class="primary-navigation-link" href="#">Contact</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
+    <div class="page-header-inner container clear-fix">
+        <div class="primary-logo page-header-logo">
+            <a class="primary-logo-link" href="#">Site Name</a>
+        </div>
+        <div class="page-header-navigation">
+            <nav class="primary-navigation clear-fix">
+                <ul class="primary-navigation-list clear-fix reset-list">
+                    <li class="primary-navigation-item current">
+                        <a class="primary-navigation-link" href="#">Home</a>
+                    </li>
+                    <li class="primary-navigation-item">
+                        <a class="primary-navigation-link" href="#">About</a>
+                    </li>
+                    <li class="primary-navigation-item">
+                        <a class="primary-navigation-link" href="#">Services</a>
+                    </li>
+                    <li class="primary-navigation-item">
+                        <a class="primary-navigation-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="primary-navigation-item">
+                        <a class="primary-navigation-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>
 <section class="hero-section">
-	<div class="slider">
-		<ul class="slider-list clear-fix reset-list">
-			<li class="slider-item">
-				<div class="slider-item-content">
-					<div class="slider-item-description"></div>
-					<img class="slider-item-image" src="images/hero-image.jpg" alt="Hero Image">
-				</div>
-			</li>
-		</ul>
-	</div>
+    <div class="slider">
+        <ul class="slider-list clear-fix reset-list">
+            <li class="slider-item">
+                <div class="slider-item-content">
+                    <div class="slider-item-text"></div>
+                    <img class="slider-item-image" src="images/hero-image.jpg" alt="Hero Image">
+                </div>
+            </li>
+        </ul>
+    </div>
 </section>
 <section class="services-section">
-	<div class="services-section-inner container">
-		<ul class="services-list reset-list grid">
-			<li class="services-list-item col-4-12">
-				<div class="service-item">
-					<i class="service-item-icon icon-rocket"></i>
+    <div class="services-section-inner container">
+        <ul class="services-list reset-list grid">
+            <li class="services-list-item col-4-12">
+                <div class="service-item">
+                    <i class="service-item-icon circle-icon icon-rocket"></i>
 
-					<div class="service-item-content">
-						<h3 class="service-item-title">Aliquam tincidunt</h3>
+                    <div class="service-item-content">
+                        <h3 class="service-item-title">Aliquam tincidunt</h3>
 
-						<p class="service-item-description">Donec nec justo eget felis facilisis fermentum. Aliquam
-							porttitor
-							mauris sit amet orci. Aenean dignissim pellentesq <a class="service-item-link" href="#">=>
-								more</a></p>
-					</div>
-				</div>
-			</li>
-			<li class="services-list-item col-4-12">
-				<div class="service-item">
-					<i class="service-item-icon icon-shield"></i>
+                        <p class="service-item-text">Donec nec justo eget felis facilisis fermentum. Aliquam
+                            porttitor
+                            mauris sit amet orci. Aenean dignissim pellentesq <a class="link link-primary" href="#">=>
+                                more</a></p>
+                    </div>
+                </div>
+            </li>
+            <li class="services-list-item col-4-12">
+                <div class="service-item">
+                    <i class="service-item-icon circle-icon icon-shield"></i>
 
-					<div class="service-item-content">
-						<h3 class="service-item-title">Aliquam tincidunt</h3>
+                    <div class="service-item-content">
+                        <h3 class="service-item-title">Aliquam tincidunt</h3>
 
-						<p class="service-item-description">Donec nec justo eget felis facilisis fermentum. Aliquam
-							porttitor
-							mauris sit amet orci. Aenean dignissim pellentesq <a class="service-item-link" href="#">=>
-								more</a></p>
-					</div>
-				</div>
-			</li>
-			<li class="services-list-item col-4-12">
-				<div class="service-item">
-					<i class="service-item-icon icon-fire-extinguisher"></i>
+                        <p class="service-item-text">Donec nec justo eget felis facilisis fermentum. Aliquam
+                            porttitor
+                            mauris sit amet orci. Aenean dignissim pellentesq <a class="link link-primary" href="#">=>
+                                more</a></p>
+                    </div>
+                </div>
+            </li>
+            <li class="services-list-item col-4-12">
+                <div class="service-item">
+                    <i class="service-item-icon circle-icon icon-fire-extinguisher"></i>
 
-					<div class="service-item-content">
-						<h3 class="service-item-title">Aliquam tincidunt</h3>
+                    <div class="service-item-content">
+                        <h3 class="service-item-title">Aliquam tincidunt</h3>
 
-						<p class="service-item-description">Donec nec justo eget felis facilisis fermentum. Aliquam
-							porttitor
-							mauris sit amet orci. Aenean dignissim pellentesq <a class="service-item-link" href="#">=>
-								more</a></p>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
+                        <p class="service-item-text">Donec nec justo eget felis facilisis fermentum. Aliquam
+                            porttitor
+                            mauris sit amet orci. Aenean dignissim pellentesq <a class="link link-primary" href="#">=>
+                                more</a></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 </section>
-<section class="news-section">
-	<div class="news-section-inner container">
-		<div class="news">
-			<img class="news-image" src="images/news.jpg">
+<section class="news-section section">
+    <div class="news-section-inner container">
+        <div class="news clear-fix">
+            <img class="news-image" src="images/news.jpg">
 
-			<div class="news-information">
-				<h3 class="news-primary-title">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit
-					amet
-					orci. Aenean dignissim pellentesque felis</h3>
+            <div class="news-information">
+                <h3 class="news-primary-title">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit
+                    amet
+                    orci. Aenean dignissim pellentesque felis</h3>
 
-				<h4 class="news-secondary-title">Civamus vestibulum nulla nec ante</h4>
-				<ul class="news-list reset-list grid">
-					<li class="news-list-item col-6-12">
-						<div class="news-item">
-							<h5 class="news-item-title">Sed egestas anteet</h5>
+                <h4 class="news-secondary-title">Civamus vestibulum nulla nec ante</h4>
+                <ul class="news-list reset-list grid">
+                    <li class="news-list-item col-6-12">
+                        <div class="news-item">
+                            <h5 class="news-item-title">Sed egestas anteet</h5>
 
-							<p class="news-item-description">Eros pede semper est, vitae luctus metus libero eu augue.
-								Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
-								Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu
-								pulvinar nunc sapien ornare nisl.</p>
-						</div>
-					</li>
-					<li class="news-list-item col-6-12">
-						<div class="news-item">
-							<h5 class="news-item-title">Aenean egestas anteet</h5>
+                            <p class="news-item-text">Eros pede semper est, vitae luctus metus libero eu augue.
+                                Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
+                                Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu
+                                pulvinar nunc sapien ornare nisl.</p>
+                            <a class="button" href="#">More</a>
+                        </div>
+                    </li>
+                    <li class="news-list-item col-6-12">
+                        <div class="news-item">
+                            <h5 class="news-item-title">Aenean egestas anteet</h5>
 
-							<p class="news-item-description">Lorem pede semper est, vitae luctus metus libero eu augue.
-								Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
-								Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu
-								pulvinar nunc sapien ornare nisl.</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+                            <p class="news-item-text">Lorem pede semper est, vitae luctus metus libero eu augue.
+                                Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
+                                Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu
+                                pulvinar nunc sapien ornare nisl.</p>
+                            <a class="button" href="#">More</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
-<footer class="page-footer container"></footer>
+<section class="subscription-section section">
+    <div class="subscription-section-inner container">
+        <div class="subscription-panel clear-fix">
+            <i class="subscription-panel-icon circle-icon icon-user"></i>
+
+            <div class="subscription-panel-content">
+                <div class="grid">
+                    <div class="col-6-12">
+                        <h3 class="subscription-panel-title">Donec nec justo eget</h3>
+
+                        <p class="subscription-panel-quote">“ Ede semper est, vitae luctus metus libero eu augue. Morb
+                            sipo ipiscing, commodo quis, gravida ...”<span class="subscription-panel-quote-author">- Kohn Doe / company name</span>
+                        </p>
+                    </div>
+                    <div class="col-6-12">
+                        <h3 class="subscription-panel-title">Morbi vitae luctus</h3>
+
+                        <form class="subscription-form" action="someAction">
+                            <div class="subscription-form-input-container">
+                                <label class="form-label hidden" for="subscription-form-email">Enter email</label>
+                                <input class="form-control" id="subscription-form-email" name="email" type="email"
+                                       placeholder="enter your email id here ..."/>
+                            </div>
+                            <div class="subscription-form-button-container">
+                                <button class="button button-secondary" type="submit"><span
+                                        class="button-text">Subscribe</span><i
+                                        class="button-icon icon-long-arrow-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="secondary-information-section section">
+    <div class="secondary-information-section-inner container">
+        <ul class="reset-list grid">
+            <li class="col-4-12">
+                <div class="secondary-information">
+                    <h3 class="secondary-information-title">Aliquam tincidunt</h3>
+                    <ul class="secondary-information-list reset-list">
+                        <li class="secondary-information-list-item">
+                            <div class="secondary-news-item">
+                                <div class="secondary-news-item-cell">
+                                    <img class="secondary-news-item-image" src="images/news-1.jpg"/>
+                                </div>
+                                <div class="secondary-news-item-cell">
+                                    <p class="secondary-news-item-text">
+                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                        <a class="link link-primary" href="#">=> more</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="secondary-information-list-item">
+                            <div class="secondary-news-item">
+                                <div class="secondary-news-item-cell">
+                                    <img class="secondary-news-item-image" src="images/news-2.jpg"/>
+                                </div>
+                                <div class="secondary-news-item-cell">
+                                    <p class="secondary-news-item-text">
+                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                        <a class="link link-primary" href="#">=> more</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="secondary-information-list-item">
+                            <div class="secondary-news-item">
+                                <div class="secondary-news-item-cell">
+                                    <img class="secondary-news-item-image" src="images/news-3.jpg"/>
+                                </div>
+                                <div class="secondary-news-item-cell">
+                                    <p class="secondary-news-item-text">
+                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                        <a class="link link-primary" href="#">=> more</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="col-4-12">
+                <div class="secondary-information">
+                    <h3 class="secondary-information-title">Nunc dignissim risu</h3>
+
+                    <div class="secondary-information-panel">
+                        <p class="secondary-information-panel-text">
+                            Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus liber
+                        </p>
+
+                        <form class="contact-form" action="someAction">
+                            <div class="form-group">
+                                <label class="form-label hidden" for="contact-form-name">Name</label>
+                                <input class="form-control" id="contact-form-name" name="name" type="text"
+                                       placeholder="name..."/>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label hidden" for="contact-form-email">Email</label>
+                                <input class="form-control" id="contact-form-email" name="email" type="text"
+                                       placeholder="email..."/>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="query" placeholder="your query..."></textarea>
+                            </div>
+
+                            <button class="button" type="submit"><span
+                                    class="button-text">Send</span><i
+                                    class="button-icon icon-long-arrow-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            <li class="col-4-12">
+                <div class="secondary-information">
+                    <h3 class="secondary-information-title">Aliquam tincidunt</h3>
+                    <ul class="secondary-information-list reset-list">
+                        <li class="secondary-information-list-item">
+                            <div class="contact-item">
+                                <i class="contact-item-icon icon-home"></i>
+
+                                <div class="contact-item-info">
+                                    <h5 class="contact-item-title">Address</h5>
+
+                                    <p class="contact-item-text">
+                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="secondary-information-list-item">
+                            <div class="contact-item">
+                                <i class="contact-item-icon icon-phone-square"></i>
+
+                                <div class="contact-item-info">
+                                    <h5 class="contact-item-title">Phone</h5>
+
+                                    <p class="contact-item-text">
+                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="secondary-information-list-item">
+                            <div class="contact-item">
+                                <i class="contact-item-icon icon-envelope"></i>
+
+                                <div class="contact-item-info">
+                                    <h5 class="contact-item-title">Email Us</h5>
+
+                                    <p class="contact-item-text">
+                                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer class="page-footer">
+    <div class="page-footer-inner container clear-fix">
+        <ul class="page-footer-social-links reset-list">
+            <li class="page-footer-social-link">
+                <a class="social-link circle-icon icon-facebook" href="#"></a>
+            </li>
+            <li class="page-footer-social-link">
+                <a class="social-link circle-icon icon-twitter" href="#"></a>
+            </li>
+            <li class="page-footer-social-link">
+                <a class="social-link circle-icon icon-linkedin" href="#"></a>
+            </li>
+        </ul>
+        <div class="page-footer-navigation">
+            <nav class="secondary-navigation">
+                <ul class="secondary-navigation-list clear-fix reset-list">
+                    <li class="secondary-navigation-item current">
+                        <a class="secondary-navigation-link" href="#">Home</a>
+                    </li>
+                    <li class="secondary-navigation-item">
+                        <a class="secondary-navigation-link" href="#">About</a>
+                    </li>
+                    <li class="secondary-navigation-item">
+                        <a class="secondary-navigation-link" href="#">Services</a>
+                    </li>
+                    <li class="secondary-navigation-item">
+                        <a class="secondary-navigation-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="secondary-navigation-item">
+                        <a class="secondary-navigation-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="page-footer-copyright">Copyright(c) website name.</div>
+    </div>
+</footer>
 </body>
 </html>

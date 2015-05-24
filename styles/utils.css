@@ -1,15 +1,39 @@
 .clear-fix:after {
-	content: "";
-	display: table;
-	clear: both;
+    display: table;
+    clear: both;
+
+    content: '';
 }
 
 .reset-list {
-	padding: 0;
-	margin: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .reset-list > li {
-	list-style: none;
-	margin: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.circle-icon {
+    display: table;
+    float: left;
+
+    width: 70px;
+    height: 70px;
+
+    font-size: 28px;
+
+    text-align: center;
+
+    color: #ffffff;
+    border-radius: 50%;
+    background: #e84c3d;
+}
+
+.circle-icon:before {
+    display: table-cell;
+
+    vertical-align: middle;
 }

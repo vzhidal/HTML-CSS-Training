@@ -1,0 +1,34 @@
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-control {
+    display: block;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px;
+
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2em;
+
+    color: #9faaad;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #ffffff;
+    box-shadow: none;
+}
+
+textarea {
+    height: auto;
+    min-height: 100px;
+
+    resize: vertical;
+}

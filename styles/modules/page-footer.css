@@ -1,0 +1,20 @@
+.page-footer {
+    background: #202628;
+    padding: 75px 0;
+}
+
+.page-footer-copyright {
+    color: #767c7e;
+    font-size: 14px;
+}
+
+.page-footer-social-links {
+    float: right;
+}
+
+.page-footer-social-link {
+    display: inline-block;
+}
+
+
+

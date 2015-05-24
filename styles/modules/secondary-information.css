@@ -1,0 +1,20 @@
+
+.secondary-information-title {
+    font-size: 21px;
+}
+
+.secondary-information-list-item {
+    border-bottom: solid 1px #e7e7e7;
+    padding: 15px 0;
+}
+
+.secondary-information-list-item:first-child {
+    border-top: solid 1px #e7e7e7;
+}
+
+.secondary-information-panel {
+    padding: 15px;
+
+    border-radius: 10px;
+    background: #e7e7e7;
+}

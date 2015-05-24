@@ -1,10 +1,14 @@
-.news-item {
+.news-item-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 
+    color: #202628;
 }
 
-.news-item-title {
-	font-family: "Lato", sans-serif;
-	font-weight: bold;
-	color: #202628;
-	font-size: 16px;
+.news-item-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+
+    color: #767c7e;
 }

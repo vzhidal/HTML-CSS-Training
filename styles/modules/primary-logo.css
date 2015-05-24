@@ -1,8 +1,9 @@
 .primary-logo {
-	font-size: 25px;
+    font-size: 25px;
 }
 
 .primary-logo-link {
-	color: #e7e7e7;
-	text-decoration: none;
+    text-decoration: none;
+
+    color: #e7e7e7;
 }

@@ -1,0 +1,33 @@
+.subscription-panel {
+    padding: 50px 30px;
+
+    color: #ffffff;
+    border-radius: 10px;
+    background: #e84c3d;
+}
+
+.subscription-panel-icon {
+    float: left;
+
+    color: #ffffff;
+    background: #202628;
+}
+
+.subscription-panel-content {
+    margin-left: 70px;
+    padding-left: 10px;
+}
+
+.subscription-panel-title {
+    font-size: 21px;
+}
+
+.subscription-panel-quote {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.subscription-panel-quote-author {
+    font-size: 14px;
+    font-style: italic;
+}

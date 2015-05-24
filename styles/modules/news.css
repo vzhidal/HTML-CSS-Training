@@ -1,28 +1,29 @@
-.news {
-
-}
-
 .news-information {
-	margin-right: 355px;
-	padding-right: 30px;
+    margin-right: 355px;
+    padding-right: 30px;
 }
 
 .news-image {
-	float: right;
-	width: 355px;
-	border-radius: 50%;
+    float: right;
+
+    width: 355px;
+
+    border-radius: 50%;
 }
 
 .news-primary-title {
-	color: #202628;
-	font-size: 21px;
+    font-size: 21px;
+
+    color: #202628;
 }
 
 .news-secondary-title {
-	padding: 10px;
-	border-top: solid 1px #e7e7e7;
-	border-bottom: solid 1px #e7e7e7;
-	color: #e84c3d;
-	font-size: 20px;
-	font-family: "Lato", sans-serif;
+    padding: 10px 0;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+    color: #e84c3d;
+    border-top: solid 1px #e7e7e7;
+    border-bottom: solid 1px #e7e7e7;
 }

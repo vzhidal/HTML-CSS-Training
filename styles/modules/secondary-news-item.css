@@ -1,0 +1,28 @@
+.secondary-news-item {
+    display: table;
+}
+
+.secondary-news-item-cell {
+    display: table-cell;
+
+    vertical-align: middle;
+}
+
+.secondary-news-item-cell:last-child {
+    width: 100%;
+}
+
+.secondary-news-item-image {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+}
+
+.secondary-news-item-text {
+    padding-left: 10px;
+
+    font-size: 14px;
+
+    color: #767c7e;
+}
