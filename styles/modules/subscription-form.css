@@ -13,8 +13,12 @@
 
     width: 100%;
     padding-right: 11px;
+
+    vertical-align: top;
 }
 
 .subscription-form .subscription-form__button-container {
     display: table-cell;
+
+    vertical-align: top;
 }
