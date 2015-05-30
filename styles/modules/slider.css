@@ -35,9 +35,10 @@
 .slider .slider__item-content-container {
     position: absolute;
     top: 289px;
-    left: 50%;
+}
 
-    margin-left: 249px;
+.slider .slider__item-content-container-wrapper{
+    position: relative;
 }
 
 .slider .slider__item-text {
