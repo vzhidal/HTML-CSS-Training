@@ -1,5 +1,5 @@
 .footer {
-    padding: 73px 0;
+    padding: 73px 0 71px;
 
     background: #202628;
 }
@@ -8,6 +8,10 @@
     float: right;
 
     margin-top: 6px;
+}
+
+.footer__content {
+    float: left;
 }
 
 .footer .footer__social-link-container {

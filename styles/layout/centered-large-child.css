@@ -1,0 +1,14 @@
+.centered-large-child__container {
+    position: relative;
+    right: 50%;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.centered-large-child__item {
+    display: inline-block;
+
+    margin-right: -100%;
+}

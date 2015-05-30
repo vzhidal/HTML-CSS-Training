@@ -1,25 +1,93 @@
-.slider__item {
+.slider {
     overflow: hidden;
 
+    width: 100%;
+    height: 560px;
+}
+
+.slider .slider__list {
+    font-size: 0;
+
+    transition: transform 1s;
+    white-space: nowrap;
+    letter-spacing: 0;
+}
+
+.slider .slider__item {
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 100%;
     height: 560px;
 
     text-align: center;
+    vertical-align: top;
 
     background: #2e2c2a;
 }
 
-.slider__item-content {
-    position: relative;
-    right: 50%;
-
-    width: 100%;
-
-    text-align: center;
-}
-
-.slider__item-image {
+.slider .slider__item-image {
     display: inline-block;
-
-    margin-right: -100%;
 }
 
+.slider .slider__item-content-container {
+    position: absolute;
+    top: 289px;
+    left: 50%;
+
+    margin-left: 249px;
+}
+
+.slider .slider__item-text {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 31px;
+    line-height: 1.5em;
+
+    text-align: left;
+    letter-spacing: normal;
+    text-transform: uppercase;
+
+    color: #e7e7e7;
+}
+
+.slider .slider__item-link {
+    display: block;
+
+    margin-top: -6px;
+
+    font-size: 15px;
+
+    text-decoration: none;
+    text-transform: none;
+
+    color: #e84c3d;
+}
+
+.slider .slider__state-1:checked ~ .slider__list {
+    transform: translateX(0);
+}
+
+.slider .slider__state-2:checked ~ .slider__list {
+    transform: translateX(-100%);
+}
+
+.slider .slider__state-3:checked ~ .slider__list {
+    transform: translateX(-200%);
+}
+
+.slider__item-controls {
+    margin-bottom: 16px;
+
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.slider__button {
+    font-size: 70px;
+
+    cursor: pointer;
+
+    color: #e84c3d;
+}

@@ -1,6 +1,7 @@
 .service-item .service-item__icon-container {
-    margin-top: 3px;
     float: left;
+
+    margin-top: 3px;
 }
 
 .service-item .service-item__content-container {
