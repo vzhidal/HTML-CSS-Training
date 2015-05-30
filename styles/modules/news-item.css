@@ -1,4 +1,4 @@
-.news-item-title {
+.news .news-item__title {
     margin: 0 0 5px;
 
     font-family: 'Lato', sans-serif;
@@ -8,7 +8,7 @@
     color: #202628;
 }
 
-.news-item-text {
+.news .news-item__text {
     margin: 5px 0;
 
     font-family: 'Lato', sans-serif;
@@ -17,6 +17,6 @@
     color: #767c7e;
 }
 
-.news-item-button {
+.news .news-item__button {
     margin-top: 26px;
 }

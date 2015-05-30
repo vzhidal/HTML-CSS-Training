@@ -1,19 +1,19 @@
-.page-header {
+.header {
     font-family: 'Fjalla One', sans-serif;
 
     background: #202628;
 }
 
-.page-header-inner {
+.header .header__inner-container {
     display: table;
 }
 
-.page-header-logo {
+.header .header__logo-container {
     display: table-cell;
 
     vertical-align: middle;
 }
 
-.page-header-navigation {
+.header .header__navigation-container {
     float: right;
 }

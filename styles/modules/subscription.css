@@ -1,26 +1,20 @@
-.subscription-panel {
-    padding: 46px 29px;
-
-    color: #ffffff;
-    border-radius: 10px;
-    background: #e84c3d;
-}
-
-.subscription-panel-icon {
+.subscription .subscription__icon-container {
     float: left;
 
     margin-top: 4px;
+}
 
+.subscription .subscription__icon {
     color: #ffffff;
     background: #202628;
 }
 
-.subscription-panel-content {
+.subscription .subscription__content-container {
     margin-left: 70px;
     padding-left: 30px;
 }
 
-.subscription-panel-title {
+.subscription .subscription__title {
     margin: 0 0 15px;
 
     font-size: 21px;
@@ -28,18 +22,18 @@
     text-transform: uppercase;
 }
 
-.subscription-panel-quote {
+.subscription .subscription__quote {
     margin: 15px 0 7px;
 
     font-family: 'Lato', sans-serif;
     font-size: 16px;
 }
 
-.subscription-panel-quote-author {
+.subscription .subscription__quote-author {
     font-size: 14px;
     font-style: italic;
 }
 
-.subscription-panel-form-container {
+.subscription .subscription__form-container {
     margin-top: 26px;
 }

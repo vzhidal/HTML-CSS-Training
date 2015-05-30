@@ -1,30 +1,18 @@
-.secondary-information-title {
+.secondary-information .secondary-information__title {
     margin: 0 0 26px;
 
     font-size: 21px;
 
     text-transform: uppercase;
+    color: #202628;
 }
 
-.secondary-information-list-item {
+.secondary-information .secondary-information__list-item {
     padding: 20px 0 10px;
 
     border-bottom: solid 1px #e7e7e7;
 }
 
-.secondary-information-list-item:first-child {
+.secondary-information .secondary-information__list-item:first-child {
     border-top: solid 1px #e7e7e7;
-}
-
-.secondary-information-panel {
-    padding: 25px 30px 30px;
-
-    border-radius: 5px;
-    background: #e7e7e7;
-}
-
-.secondary-information-panel-text {
-    margin: 0 0 24px;
-
-    color: #767c7e;
 }

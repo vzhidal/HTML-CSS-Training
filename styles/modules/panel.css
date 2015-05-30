@@ -1,0 +1,20 @@
+.panel {
+    padding: 25px 30px 30px;
+
+    border-radius: 5px;
+}
+
+.panel.panel--primary {
+    color: #ffffff;
+    background: #e84c3d;
+}
+
+.panel.panel--secondary {
+    background: #e7e7e7;
+}
+
+.panel.panel--large {
+    padding: 46px 29px;
+
+    border-radius: 10px;
+}

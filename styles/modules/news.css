@@ -1,17 +1,20 @@
-.news-information {
+.news .news__content-container {
     margin-right: 355px;
     padding-right: 30px;
 }
 
-.news-image {
+.news .news__image-container {
     float: right;
 
     width: 355px;
+}
 
+.news .news__image {
+    max-width: 100%;
     border-radius: 50%;
 }
 
-.news-primary-title {
+.news .news__primary-title {
     font-size: 21px;
 
     text-transform: uppercase;
@@ -19,7 +22,7 @@
     color: #202628;
 }
 
-.news-secondary-title {
+.news .news__secondary-title {
     margin: 27px 0 22px;
     padding: 6px 0 9px;
 

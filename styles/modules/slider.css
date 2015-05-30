@@ -1,8 +1,4 @@
-
-
-
-
-.slider-item {
+.slider__item {
     overflow: hidden;
 
     height: 560px;
@@ -12,7 +8,7 @@
     background: #2e2c2a;
 }
 
-.slider-item-content {
+.slider__item-content {
     position: relative;
     right: 50%;
 
@@ -21,7 +17,7 @@
     text-align: center;
 }
 
-.slider-item-image {
+.slider__item-image {
     display: inline-block;
 
     margin-right: -100%;

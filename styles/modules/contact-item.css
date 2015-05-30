@@ -1,4 +1,4 @@
-.contact-item-icon {
+.contact-item .contact-item__icon {
     float: left;
 
     font-size: 28px;
@@ -6,13 +6,13 @@
     color: #202628;
 }
 
-.contact-item-info {
+.contact-item .contact-item__info {
     margin-top: 4px;
     margin-left: 20px;
     padding-left: 31px;
 }
 
-.contact-item-title {
+.contact-item .contact-item__title {
     margin: 0;
 
     font-family: 'Lato', sans-serif;
@@ -22,7 +22,7 @@
     color: #e84c3d;
 }
 
-.contact-item-text {
+.contact-item .contact-item__text {
     margin: 1px 0 14px;
 
     font-size: 14px;
@@ -30,7 +30,7 @@
     color: #767c7e;
 }
 
-.contact-item-link {
+.contact-item .contact-item__link {
     display: block;
 
     text-decoration: none;

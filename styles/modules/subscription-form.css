@@ -2,13 +2,19 @@
     display: table;
 }
 
-.subscription-form-input-container {
+.subscription-form .subscription-form__description{
+    margin: 0 0 24px;
+
+    color: #767c7e;
+}
+
+.subscription-form .subscription-form__input-container {
     display: table-cell;
 
     width: 100%;
     padding-right: 11px;
 }
 
-.subscription-form-button-container {
+.subscription-form .subscription-form__button-container {
     display: table-cell;
 }

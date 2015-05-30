@@ -36,8 +36,8 @@ textarea.form-control {
 }
 
 input::-moz-placeholder {
-    color: #9faaad;
     opacity: 1;
+    color: #9faaad;
 }
 
 input:-ms-input-placeholder {

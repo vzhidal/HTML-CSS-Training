@@ -1,13 +1,14 @@
-.primary-navigation-item {
+.primary-navigation .primary-navigation__item {
     float: left;
 }
 
-.primary-navigation-link {
+.primary-navigation .primary-navigation__link {
     display: inline-block;
 
-    padding: 29px 23px 27px;
+    padding: 35px 23px 32px;
 
     font-size: 13px;
+    line-height: 1em;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -15,15 +16,15 @@
     color: #e7e7e7;
 }
 
-.primary-navigation-item:last-child .primary-navigation-link {
+.primary-navigation .primary-navigation__item:last-child .primary-navigation__link {
     padding-right: 10px;
 }
 
-.primary-navigation-link:hover, .primary-navigation-link:active {
+.primary-navigation .primary-navigation__link:hover, .primary-navigation .primary-navigation__link:active {
     color: #c8c8c8;
 }
 
-.primary-navigation-item.current .primary-navigation-link {
+.primary-navigation .primary-navigation__item.state-current .primary-navigation__link {
     color: #e7e7e7;
     background: #e84c3d;
 }

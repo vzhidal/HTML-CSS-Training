@@ -1,14 +1,14 @@
-.service-item-icon {
+.service-item .service-item__icon-container {
     margin-top: 3px;
+    float: left;
 }
 
-.service-item-content {
-    margin-top: 12px;
+.service-item .service-item__content-container {
     margin-left: 70px;
     padding-left: 31px;
 }
 
-.service-item-title {
+.service-item .service-item__title {
     margin: 0 0 18px;
 
     font-size: 21px;

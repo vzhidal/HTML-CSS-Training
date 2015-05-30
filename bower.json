@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.3"
+    "normalize.css": "~3.0.3",
+    "reset-css": "~2.0.20110126"
   }
 }

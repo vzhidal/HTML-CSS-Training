@@ -1,22 +1,18 @@
-.page-footer {
+.footer {
     padding: 73px 0;
 
     background: #202628;
 }
 
-.page-footer-copyright {
-    font-size: 14px;
-
-    color: #767c7e;
-}
-
-.page-footer-social-links {
+.footer .footer__social-links {
     float: right;
+
     margin-top: 6px;
 }
 
-.page-footer-social-link {
+.footer .footer__social-link-container {
     display: inline-block;
+
     padding-left: 8px;
 }
 

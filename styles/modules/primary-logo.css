@@ -1,8 +1,8 @@
 .primary-logo {
     font-size: 25px;
-}
+    line-height: 1em;
 
-.primary-logo-link {
+    vertical-align: middle;
     text-decoration: none;
     text-transform: uppercase;
 

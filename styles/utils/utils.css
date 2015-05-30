@@ -1,0 +1,10 @@
+.clear-fix:after {
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+
+
+
