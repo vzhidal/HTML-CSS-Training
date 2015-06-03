@@ -9,23 +9,23 @@
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
+    <link rel="stylesheet" href="bower_components/reset-css/reset.css"/>
 
     <link rel="stylesheet" href="styles/utils/utils.css"/>
     <link rel="stylesheet" href="styles/utils/circle-icon.css"/>
 
     <link rel="stylesheet" href="styles/core/typography.css"/>
     <link rel="stylesheet" href="styles/core/states.css"/>
-    <link rel="stylesheet" href="styles/core/reset.css"/>
+    <link rel="stylesheet" href="styles/core/placeholder.css"/>
 
     <link rel="stylesheet" href="styles/layout/grid.css"/>
     <link rel="stylesheet" href="styles/layout/layout.css"/>
     <link rel="stylesheet" href="styles/layout/centered-large-child.css"/>
 
-    <link rel="stylesheet" href="styles/objects/button.css"/>
-    <link rel="stylesheet" href="styles/objects/form.css"/>
-    <link rel="stylesheet" href="styles/objects/link.css"/>
-
+    <link rel="stylesheet" href="styles/modules/button.css"/>
+    <link rel="stylesheet" href="styles/modules/form.css"/>
+    <link rel="stylesheet" href="styles/modules/link.css"/>
+    <link rel="stylesheet" href="styles/modules/section.css"/>
     <link rel="stylesheet" href="styles/modules/header.css"/>
     <link rel="stylesheet" href="styles/modules/panel.css"/>
     <link rel="stylesheet" href="styles/modules/primary-logo.css"/>
@@ -43,11 +43,13 @@
     <link rel="stylesheet" href="styles/modules/footer.css"/>
     <link rel="stylesheet" href="styles/modules/copyright.css"/>
     <link rel="stylesheet" href="styles/modules/social-link.css"/>
+    <link rel="stylesheet" href="styles/modules/social-links.css"/>
     <link rel="stylesheet" href="styles/modules/secondary-navigation.css"/>
+    <link rel="stylesheet" href="styles/modules/items-list.css"/>
 
     <link rel="stylesheet" href="styles/pages/home.css"/>
 </head>
-<body>
+<body class="home-page">
 <header class="header">
     <div class="header__inner-container container clear-fix">
         <div class="header__logo-container">
@@ -77,7 +79,8 @@
         </div>
     </div>
 </header>
-<section class="home-hero-section section">
+
+<section class="home-page__hero-section section">
     <div class="slider">
         <input class="slider__state-1 global-state-hidden" id="slider__state-1" type="radio" name="slider-state"
                value="1" checked="checked"/>
@@ -155,7 +158,8 @@
         </ul>
     </div>
 </section>
-<section class="home-services-section section section--dark">
+
+<section class="home-page__services-section section section--dark">
     <div class="container">
         <ul class="grid">
             <li class="col-4-12">
@@ -165,10 +169,10 @@
                     </div>
 
                     <div class="service-item__content-container">
-                        <h3 class="service-item__title">Aliquam tincidunt</h3>
+                        <h1 class="service-item__title">Aliquam tincidunt</h1>
 
                         <p class="service-item__text">Donec nec justo eget felis facilisis fermentum. Aliquam
-                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link-primary" href="#">=>
+                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link--primary" href="#">=>
                                 more</a></p>
                     </div>
                 </div>
@@ -180,10 +184,10 @@
                     </div>
 
                     <div class="service-item__content-container">
-                        <h3 class="service-item__title">Aliquam tincidunt</h3>
+                        <h1 class="service-item__title">Aliquam tincidunt</h1>
 
                         <p class="service-item__text">Donec nec justo eget felis facilisis fermentum. Aliquam
-                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link-primary" href="#">=>
+                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link--primary" href="#">=>
                                 more</a></p>
                     </div>
                 </div>
@@ -195,10 +199,10 @@
                     </div>
 
                     <div class="service-item__content-container">
-                        <h3 class="service-item__title">Aliquam tincidunt</h3>
+                        <h1 class="service-item__title">Aliquam tincidunt</h1>
 
                         <p class="service-item__text">Donec nec justo eget felis facilisis fermentum. Aliquam
-                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link-primary" href="#">=>
+                            porttitor mauris sit amet orci. Aenean pellentesq <a class="link link--primary" href="#">=>
                                 more</a></p>
                     </div>
                 </div>
@@ -206,7 +210,8 @@
         </ul>
     </div>
 </section>
-<section class="home-news-section section">
+
+<section class="home-page__news-section section">
     <div class="container">
         <div class="news clear-fix">
             <div class="news__image-container">
@@ -214,15 +219,15 @@
             </div>
 
             <div class="news__content-container">
-                <h3 class="news__primary-title">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit
+                <h1 class="news__primary-title">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit
                     amet
-                    orci. Aenean dignissim pellentesque felis</h3>
+                    orci. Aenean dignissim pellentesque felis</h1>
 
-                <h4 class="news__secondary-title">Civamus vestibulum nulla nec ante</h4>
+                <h2 class="news__secondary-title">Civamus vestibulum nulla nec ante</h2>
                 <ul class="grid">
                     <li class="col-6-12">
                         <div class="news-item">
-                            <h5 class="news-item__title">Sed egestas anteet</h5>
+                            <h3 class="news-item__title">Sed egestas anteet</h3>
 
                             <p class="news-item__text">Eros pede semper est, vitae luctus metus libero eu augue.
                                 Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
@@ -233,7 +238,7 @@
                     </li>
                     <li class="col-6-12">
                         <div class="news-item">
-                            <h5 class="news-item__title">Aenean egestas anteet</h5>
+                            <h3 class="news-item__title">Aenean egestas anteet</h3>
 
                             <p class="news-item__text">Lorem pede semper est, vitae luctus metus libero eu augue.
                                 Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
@@ -247,7 +252,8 @@
         </div>
     </div>
 </section>
-<section class="home-subscription-section section">
+
+<section class="home-page__subscription-section section">
     <div class="container">
         <div class="panel panel--primary panel--large clear-fix">
             <div class="subscription">
@@ -257,26 +263,26 @@
                 <div class="subscription__content-container">
                     <div class="grid">
                         <div class="col-6-12">
-                            <h3 class="subscription__title">Donec nec justo eget</h3>
+                            <h1 class="subscription__title">Donec nec justo eget</h1>
 
                             <p class="subscription__quote">“ Ede semper est, vitae luctus metus libero eu augue. Morb
                                 sipo ipiscing, commodo quis, gravida ...”<span class="subscription__quote-author">- Kohn Doe / company name</span>
                             </p>
                         </div>
                         <div class="col-6-12">
-                            <h3 class="subscription__title">Morbi vitae luctus</h3>
+                            <h1 class="subscription__title">Morbi vitae luctus</h1>
 
                             <div class="subscription__form-container">
                                 <form class="subscription-form" action="#">
-                                    <div class="subscription-form__input-container">
-                                        <label class="form-label global-state-hidden" for="subscription-form__email">Enter
+                                    <div class="subscription-form__input-container form">
+                                        <label class="form__label global-state-hidden" for="subscription-form__email">Enter
                                             email</label>
-                                        <input class="form-control" id="subscription-form__email" name="email"
+                                        <input class="form__control" id="subscription-form__email" name="email"
                                                type="email"
                                                placeholder="enter your email id here ..."/>
                                     </div>
                                     <div class="subscription-form__button-container">
-                                        <button class="button button-secondary" type="submit"><span
+                                        <button class="button button--secondary" type="submit"><span
                                                 class="button-text">Subscribe</span><i
                                                 class="button-icon icon-long-arrow-right"></i></button>
                                     </div>
@@ -289,14 +295,15 @@
         </div>
     </div>
 </section>
-<section class="home-secondary-information-section section">
+
+<section class="home-page__secondary-information-section section">
     <div class="container">
         <ul class="grid">
             <li class="col-4-12">
                 <div class="secondary-information">
-                    <h3 class="secondary-information__title">Aliquam tincidunt</h3>
-                    <ul class="secondary-information__list">
-                        <li class="secondary-information__list-item">
+                    <h1 class="secondary-information__title">Aliquam tincidunt</h1>
+                    <ul class="items-list">
+                        <li class="items-list__list-item">
                             <div class="secondary-news-item">
                                 <div class="secondary-news-item__cell">
                                     <img class="secondary-news-item__image" src="images/news-1.jpg"/>
@@ -304,12 +311,12 @@
                                 <div class="secondary-news-item__cell">
                                     <p class="secondary-news-item__text">
                                         Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                                        <a class="secondary-news-item__link link link-primary" href="#">more =></a>
+                                        <a class="secondary-news-item__link link link--primary" href="#">more =></a>
                                     </p>
                                 </div>
                             </div>
                         </li>
-                        <li class="secondary-information__list-item">
+                        <li class="items-list__list-item">
                             <div class="secondary-news-item">
                                 <div class="secondary-news-item__cell">
                                     <img class="secondary-news-item__image" src="images/news-2.jpg"/>
@@ -317,12 +324,12 @@
                                 <div class="secondary-news-item__cell">
                                     <p class="secondary-news-item__text">
                                         Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                                        <a class="secondary-news-item__link link link-primary" href="#">more =></a>
+                                        <a class="secondary-news-item__link link link--primary" href="#">more =></a>
                                     </p>
                                 </div>
                             </div>
                         </li>
-                        <li class="secondary-information__list-item">
+                        <li class="items-list__list-item">
                             <div class="secondary-news-item">
                                 <div class="secondary-news-item__cell">
                                     <img class="secondary-news-item__image" src="images/news-3.jpg"/>
@@ -330,7 +337,7 @@
                                 <div class="secondary-news-item__cell">
                                     <p class="secondary-news-item__text">
                                         Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-                                        <a class="secondary-news-item__link link link-primary" href="#">more =></a>
+                                        <a class="secondary-news-item__link link link--primary" href="#">more =></a>
                                     </p>
                                 </div>
                             </div>
@@ -340,30 +347,30 @@
             </li>
             <li class="col-4-12">
                 <div class="secondary-information">
-                    <h3 class="secondary-information__title">Nunc dignissim risu</h3>
+                    <h1 class="secondary-information__title">Nunc dignissim risu</h1>
 
                     <div class="panel panel--secondary">
-                        <form class="contact-form" action="#">
+                        <form class="contact-form form" action="#">
                             <p class="contact-form__description">
                                 Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus liber
                             </p>
 
-                            <div class="form-group">
-                                <label class="form-label global-state-hidden" for="contact-form-name">Name</label>
-                                <input class="form-control" id="contact-form-name" name="name" type="text"
+                            <div class="form__group">
+                                <label class="form__label global-state-hidden" for="contact-form-name">Name</label>
+                                <input class="form__control" id="contact-form-name" name="name" type="text"
                                        placeholder="name..."/>
                             </div>
-                            <div class="form-group">
-                                <label class="form-label global-state-hidden" for="contact-form-email">Email</label>
-                                <input class="form-control" id="contact-form-email" name="email" type="text"
+                            <div class="form__group">
+                                <label class="form__label global-state-hidden" for="contact-form-email">Email</label>
+                                <input class="form__control" id="contact-form-email" name="email" type="text"
                                        placeholder="email..."/>
                             </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="query" placeholder="your query..."></textarea>
+                            <div class="form__group">
+                                <textarea class="form__control" name="query" placeholder="your query..."></textarea>
                             </div>
 
                             <button class="button" type="submit"><span
-                                    class="button-text">Send</span><i
+                                    class="button__text">Send</span><i
                                     class="button-icon icon-long-arrow-right"></i></button>
                         </form>
                     </div>
@@ -371,14 +378,14 @@
             </li>
             <li class="col-4-12">
                 <div class="secondary-information">
-                    <h3 class="secondary-information__title">Aliquam tincidunt</h3>
-                    <ul class="secondary-information__list">
-                        <li class="secondary-information__list-item">
+                    <h1 class="secondary-information__title">Aliquam tincidunt</h1>
+                    <ul class="items-list">
+                        <li class="items-list__list-item">
                             <div class="contact-item">
                                 <i class="contact-item__icon icon-home"></i>
 
                                 <div class="contact-item__info">
-                                    <h5 class="contact-item__title">Address</h5>
+                                    <h3 class="contact-item__title">Address</h3>
 
                                     <p class="contact-item__text">
                                         some block, steet number, city name, <br/>country
@@ -386,12 +393,12 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="secondary-information__list-item">
+                        <li class="items-list__list-item">
                             <div class="contact-item">
                                 <i class="contact-item__icon icon-phone-square"></i>
 
                                 <div class="contact-item__info">
-                                    <h5 class="contact-item__title">Phone</h5>
+                                    <h3 class="contact-item__title">Phone</h3>
 
                                     <p class="contact-item__text">
                                         <a class="contact-item__link" href="tel:12037777777">(203) 777 7777</a>
@@ -400,12 +407,12 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="secondary-information__list-item">
+                        <li class="items-list__list-item">
                             <div class="contact-item">
                                 <i class="contact-item__icon icon-envelope"></i>
 
                                 <div class="contact-item__info">
-                                    <h5 class="contact-item__title">Email Us</h5>
+                                    <h3 class="contact-item__title">Email Us</h3>
 
                                     <p class="contact-item__text">
                                         <a class="contact-item__link"
@@ -427,19 +434,20 @@
 
 <footer class="footer">
     <div class="container clear-fix">
-
-        <ul class="footer__social-links">
-            <li class="footer__social-link-container">
-                <a class="social-link circle-icon icon-facebook" href="#"></a>
-            </li>
-            <li class="footer__social-link-container">
-                <a class="social-link circle-icon icon-twitter" href="#"></a>
-            </li>
-            <li class="footer__social-link-container">
-                <a class="social-link circle-icon icon-linkedin" href="#"></a>
-            </li>
-        </ul>
-        <div class="footer__content">
+        <div class="footer__social-links-container">
+            <ul class="social-links">
+                <li class="social-links__link-container">
+                    <a class="social-link circle-icon icon-facebook" href="#"></a>
+                </li>
+                <li class="social-links__link-container">
+                    <a class="social-link circle-icon icon-twitter" href="#"></a>
+                </li>
+                <li class="social-links__link-container">
+                    <a class="social-link circle-icon icon-linkedin" href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__content-container">
             <div class="footer__navigation-container">
                 <nav class="secondary-navigation">
                     <ul class="secondary-navigation__list clear-fix">
@@ -465,7 +473,6 @@
                 <p class="copyright">Copyright(c) website name.</p>
             </div>
         </div>
-
     </div>
 </footer>
 </body>

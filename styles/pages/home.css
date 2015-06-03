@@ -1,16 +1,16 @@
-.home-hero-section {
+.home-page .home-page__hero-section {
     margin: 0;
 }
 
-.home-news-section {
+.home-page .home-page__news-section {
     margin: 78px 0 74px;
 }
 
-.home-secondary-information-section {
+.home-page .home-page__secondary-information-section {
     margin: 67px 0 60px;
 }
 
-.home-services-section {
+.home-page .home-page__services-section {
     margin: 0;
-    padding: 78px 0 71px;
+    padding: 78px 0 85px;
 }

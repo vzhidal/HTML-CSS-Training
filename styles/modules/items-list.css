@@ -1,0 +1,9 @@
+.items-list .items-list__list-item {
+    padding: 20px 0 10px;
+
+    border-bottom: solid 1px #e7e7e7;
+}
+
+.items-list .items-list__list-item:first-child {
+    border-top: solid 1px #e7e7e7;
+}

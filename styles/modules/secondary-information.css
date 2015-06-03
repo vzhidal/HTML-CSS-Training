@@ -7,13 +7,3 @@
 
     color: #202628;
 }
-
-.secondary-information .secondary-information__list-item {
-    padding: 20px 0 10px;
-
-    border-bottom: solid 1px #e7e7e7;
-}
-
-.secondary-information .secondary-information__list-item:first-child {
-    border-top: solid 1px #e7e7e7;
-}
