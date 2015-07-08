@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "normalize.css": "~3.0.3",
-    "reset-css": "~2.0.20110126"
+    "reset-css": "~2.0.20110126",
+    "simple-grid-css": "*",
+    "bootstrap": "~3.3.5"
   }
 }

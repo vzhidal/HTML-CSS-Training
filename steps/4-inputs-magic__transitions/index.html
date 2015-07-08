@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML-CSS Training</title>
+
+
+    <link rel="stylesheet" href="../../dependencies/icomoon/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../../bower_components/reset-css/reset.css"/>
+
+    <link rel="stylesheet" href="../../styles/utils/utils.css"/>
+    <link rel="stylesheet" href="../../styles/utils/circle-icon.css"/>
+
+    <link rel="stylesheet" href="../../styles/core/typography.css"/>
+    <link rel="stylesheet" href="../../styles/core/states.css"/>
+    <link rel="stylesheet" href="../../styles/core/placeholder.css"/>
+
+    <link rel="stylesheet" href="../../styles/layout/grid.css"/>
+    <link rel="stylesheet" href="../../styles/layout/layout.css"/>
+    <link rel="stylesheet" href="../../styles/layout/centered-large-child.css"/>
+
+    <link rel="stylesheet" href="../../styles/modules/slider.css"/>
+
+
+    <link rel="stylesheet" href="../../styles/pages/home.css"/>
+</head>
+<body class="home-page">
+<section class="home-page__hero-section section">
+    <div class="slider">
+        <input class="slider__state-1 global-state-hidden" id="slider__state-1" type="radio" name="slider-state"
+               value="1" checked="checked"/>
+        <input class="slider__state-2 global-state-hidden" id="slider__state-2" type="radio" name="slider-state"
+               value="2"/>
+        <input class="slider__state-3 global-state-hidden" id="slider__state-3" type="radio" name="slider-state"
+               value="3"/>
+        <ul class="slider__list clear-fix">
+            <li class="slider__item">
+                <div class="centered-large-child__container">
+                    <div class="centered-large-child__item">
+                        <div class="slider__item-content-container-wrapper container">
+                            <div class="slider__item-content-container">
+                                <div class="slider__item-controls">
+                                    <label class="slider__button" for="slider__state-3"><i
+                                            class="icon-cir-l"></i></label>
+                                    <label class="slider__button" for="slider__state-2"><i
+                                            class="icon-cir-r"></i></label>
+                                </div>
+                                <div class="slider__item-text">
+                                    Clivuam tinc <br/>
+                                    Nunc dignissim risus id metus
+                                    <a class="slider__item-link" href="#">http://example.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="slider__item-image" src="../../images/slider-image-1.jpg" alt="Hero Image">
+                    </div>
+                </div>
+            </li>
+            <li class="slider__item">
+                <div class="centered-large-child__container">
+                    <div class="centered-large-child__item">
+                        <div class="slider__item-content-container-wrapper container">
+                            <div class="slider__item-content-container">
+                                <div class="slider__item-controls">
+                                    <label class="slider__button" for="slider__state-1"><i
+                                            class="icon-cir-l"></i></label>
+                                    <label class="slider__button" for="slider__state-3"><i
+                                            class="icon-cir-r"></i></label>
+                                </div>
+                                <div class="slider__item-text">
+                                    Clivuam tinc <br/>
+                                    Nunc dignissim risus id metus
+                                    <a class="slider__item-link" href="#">http://example.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="slider__item-image" src="../../images/slider-image-2.jpg" alt="Hero Image">
+                    </div>
+                </div>
+            </li>
+            <li class="slider__item">
+                <div class="centered-large-child__container">
+                    <div class="centered-large-child__item">
+                        <div class="slider__item-content-container-wrapper container">
+                            <div class="slider__item-content-container">
+                                <div class="slider__item-controls">
+                                    <label class="slider__button" for="slider__state-2"><i
+                                            class="icon-cir-l"></i></label>
+                                    <label class="slider__button" for="slider__state-1"><i
+                                            class="icon-cir-r"></i></label>
+                                </div>
+                                <div class="slider__item-text">
+                                    Clivuam tinc <br/>
+                                    Nunc dignissim risus id metus
+                                    <a class="slider__item-link" href="#">http://example.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="slider__item-image" src="../../images/slider-image-3.jpg" alt="Hero Image">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
