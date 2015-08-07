@@ -26,7 +26,7 @@
     box-shadow: none;
 }
 
-.form textarea.form__control {
+.form .form__text-control {
     height: auto;
     min-height: 82px;
 
