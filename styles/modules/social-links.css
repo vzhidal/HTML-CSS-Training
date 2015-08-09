@@ -1,5 +1,11 @@
+.social-links {
+    display: table;
+}
+
 .social-links .social-links__link-container {
-    display: inline-block;
+    display: table-cell;
 
     padding-left: 8px;
+
+    vertical-align: top;
 }
